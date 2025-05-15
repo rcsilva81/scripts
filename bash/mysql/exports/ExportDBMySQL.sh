@@ -7,11 +7,11 @@
 # ------------------------------------------------------------------------------
 set -x
 
-vPass='user'
-vUser='user'
-vNewHost='dxxxx.ondigitalocean.com'
-vPort='1234'
-vBD2Export='PRD'
+vPass="${MYSQL_PASS}"
+vUser="${MYSQL_USER}"
+vNewHost="${MYSQL_HOST}"
+vPort="${MYSQL_PORT}"
+vBD2Export="${MYSQL_DATABASE}"
 vBD2Be='PRD'
 vExportDir='/var/lib/mysql/export/'
 vExportRoutinesFile=$vExportDir'export_routines.sql'
