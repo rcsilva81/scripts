@@ -7,10 +7,10 @@
 # ------------------------------------------------------------------------------
 set -x
 
-vPass='AVNS_aQXGOGJJ145_LR_DXRx'
-vUser='doadmin'
-vNewHost='db-cluster-mysql-nyc1-52688-do-user-4229411-0.b.db.ondigitalocean.com'
-vPort='25060'
+vPass='user'
+vUser='user'
+vNewHost='dxxxx.ondigitalocean.com'
+vPort='1234'
 vBD2Export='PRD'
 vBD2Be='PRD'
 vExportDir='/var/lib/mysql/export/'
